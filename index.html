@@ -1,0 +1,385 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>study progress bar</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body>
+    <div class="p-4">
+      <div
+        class="sm:h-[95vh] h-8 flex flex-col sm:flex-row sm:max-h-screen sm:max-w-screen"
+      >
+        <div
+          class="justify-between sm:justify-start rounded-t-lg sm:rounded-tr-none sm:rounded-l-lg p-2 bg-pink-600 sm:w-1/4 sm:max-h-fit flex sm:flex-col items-center"
+        >
+          <a
+            class="cursor-pointer flex flex-col py-3 font-bold sm:font-extrabold drop-shadow text-center"
+            href="./index.html"
+          >
+            <span class="text-xl sm:text-4xl">study</span>
+            <span class="text-sm sm:text-xl">progress bar</span>
+          </a>
+          <a
+            href="#Home"
+            class="p-2 sm:py-2 text-gray-800 cursor-pointer sm:px-1 sm:w-full text-center hover:text-black hover:font-bold rounded hover:bg-pink-300"
+            id="persons"
+          >
+            Home
+          </a>
+          <a
+            class="p-2 sm:py-2 text-gray-800 cursor-pointer sm:px-1 sm:w-full text-center hover:text-black hover:font-bold rounded hover:bg-pink-300"
+            href="#datesInf"
+            >progress
+          </a>
+          <a
+            class="p-2 sm:py-2 text-gray-800 cursor-pointer sm:px-1 sm:w-full text-center hover:text-black hover:font-bold rounded hover:bg-pink-300"
+            href="#chartsInf"
+            >Charts
+          </a>
+          <a
+            class="p-2 sm:py-2 text-gray-800 cursor-pointer sm:px-1 sm:w-full text-center hover:text-black hover:font-bold rounded hover:bg-pink-300"
+            href="#TimelinesInf"
+            >Timeline
+          </a>
+        </div>
+        <div
+          class="scroll-smooth media rounded-b-lg sm:rounded-b-none sm:rounded-r-lg bg-gray-400 sm:w-3/4 sm:max-h-fit sm:overflow-auto"
+        >
+          <div
+            id="Home"
+            class="border-2 bg-gray-300 p-2 m-2 rounded px-8 pt-4 pb-4"
+          >
+            <div class="p-2 border-b text-xl font-bold">Home</div>
+            <p class="p-2">
+              We are here to Tracking our Study progress and say how much we
+              spent our time to study and how much it have productivity in
+              weekdays.
+            </p>
+            <p class="p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+              possimus. Vero id delectus aspernatur. Modi nam quibusdam,
+              excepturi doloribus aspernatur similique et sint fugiat
+              asperiores! Doloribus repellendus odit et quae. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Placeat, possimus. Vero id
+              delectus aspernatur. Modi nam quibusdam, excepturi doloribus
+              aspernatur similique et sint fugiat asperiores! Doloribus
+              repellendus odit et quae.
+            </p>
+            <p class="p-2">Created by 1900</p>
+            <div class="flex">
+              <button
+                class="bg-white hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
+              >
+                <a href="mailto: aterpat1900@gmail.com" class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 mx-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+                  Send me email
+                </a>
+              </button>
+            </div>
+          </div>
+          <div id="datesInf" class="border p-2 m-2 rounded">
+            <div class="p-2 border-b text-xl font-bold">progress</div>
+            <div class="p-1 m-2 flex shadow-sm">
+              <img
+                class="rounded py-1"
+                src="https://www.gravatar.com/avatar?d=mp&s=50"
+                alt=""
+              />
+              <div class="flex flex-col w-full">
+                <p class="px-4 my-1 text-lg font-medium">Saturday</p>
+                <div class="mx-4 w-full bg-gray-200 rounded-full">
+                  <div
+                    class="bg-pink-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-l-full"
+                    style="width: 75%"
+                  >
+                    75%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-1 m-2 flex shadow-sm">
+              <img
+                class="rounded py-1"
+                src="https://www.gravatar.com/avatar?d=mp&s=50"
+                alt=""
+              />
+              <div class="flex flex-col w-full">
+                <p class="px-4 my-1 text-lg font-medium">Sunday</p>
+                <div class="mx-4 w-full bg-gray-200 rounded-full">
+                  <div
+                    class="bg-pink-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-l-full"
+                    style="width: 99%"
+                  >
+                    99%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-1 m-2 flex shadow-sm">
+              <img
+                class="rounded py-1"
+                src="https://www.gravatar.com/avatar?d=mp&s=50"
+                alt=""
+              />
+              <div class="flex flex-col w-full">
+                <p class="px-4 my-1 text-lg font-medium">Monday</p>
+                <div class="mx-4 w-full bg-gray-200 rounded-full">
+                  <div
+                    class="bg-pink-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-l-full"
+                    style="width: 25%"
+                  >
+                    25%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="chartsInf" class="border bg-gray-300 p-2 m-2 rounded">
+            <div class="p-2 border-b text-xl font-bold">Charts</div>
+            <div class="rounded-t overflow-hidden">
+              <div class="py-3 px-5 bg-gray-50">Line chart</div>
+              <!-- <div style="height: 100%; width: 100%"> -->
+              <canvas class="p-4" id="chartLine"></canvas>
+              <!-- </div> -->
+            </div>
+            <div class="flex md:flex-row flex-col">
+              <div class="md:w-1/2 w-full overflow-hidden">
+                <div class="py-3 px-5 bg-gray-50">Doughnut chart</div>
+                <div class="md:w-2/3 m-auto">
+                  <canvas class="p-4" id="chartDoughnut"></canvas>
+                </div>
+              </div>
+              <div class="md:w-1/2 w-full overflow-hidden">
+                <div class="border-l border-gray-200 py-3 px-5 bg-gray-50">
+                  Radar chart
+                </div>
+                <div class="md:w-2/3 m-auto">
+                  <canvas class="p-4" id="chartRadar"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="TimelinesInf"
+            class="border-2 bg-gray-300 p-2 m-2 rounded px-8 pt-4 pb-4"
+          >
+            <div class="p-2 border-b border-blue-600 text-xl font-bold">
+              Timeline
+            </div>
+
+            <ol class="pt-4 relative border-l-2 border-blue-600">
+              <li class="mb-10 ml-6">
+                <span
+                  class="absolute flex items-center justify-center w-7 h-7 bg-blue-600 rounded-full -left-3.5"
+                >
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    class="w-3 h-3 text-white"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                    ></path>
+                  </svg>
+                </span>
+                <h3
+                  class="flex items-center mb-1 text-xl font-semibold text-gray-800"
+                >
+                  Saturday
+                  <span
+                    class="inline-block text-xs py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded ml-3"
+                    >Latest</span
+                  >
+                </h3>
+                <time class="text-sm text-gray-500"
+                  >Released on January 28th, 2022</time
+                >
+                <p class="mt-2 pb-2 text-gray-600">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit sit
+                  molestias, dolore facilis amet inventore necessitatibus ipsam
+                  explicabo in molestiae aut sed labore alias.
+                </p>
+                <!-- <button
+                  type="button"
+                  class="inline-flex items-center px-6 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                  data-mdb-ripple="true"
+                >
+                  Download
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    class="w-3 ml-2"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"
+                    ></path>
+                  </svg>
+                </button> -->
+              </li>
+              <li class="mb-10 ml-6">
+                <span
+                  class="absolute flex items-center justify-center w-7 h-7 bg-blue-600 rounded-full -left-3.5"
+                >
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    class="w-3 h-3 text-white"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                    ></path>
+                  </svg>
+                </span>
+                <h3 class="mb-1 text-xl font-semibold text-gray-800">Sunday</h3>
+                <time class="text-sm text-gray-500"
+                  >Released on January 29th, 2022</time
+                >
+                <p class="mt-2 text-gray-600">
+                  Officia accusantium necessitatibus voluptas obcaecati facere
+                  rerum provident ipsum quos modi perspiciatis iusto, doloremque
+                  harum sunt ipsam perferendis velit earum omnis aspernatur.
+                </p>
+              </li>
+              <li class="mb-10 ml-6">
+                <span
+                  class="absolute flex items-center justify-center w-7 h-7 bg-blue-600 rounded-full -left-3.5"
+                >
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    class="w-3 h-3 text-white"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                    ></path>
+                  </svg>
+                </span>
+                <h3 class="mb-1 text-xl font-semibold text-gray-800">Monday</h3>
+                <time class="text-sm text-gray-500"
+                  >Released on January 29th, 2022</time
+                >
+                <p class="mt-2 text-gray-600">
+                  Officia accusantium necessitatibus voluptas obcaecati facere
+                  rerum provident ipsum quos modi perspiciatis iusto, doloremque
+                  harum sunt ipsam perferendis velit earum omnis aspernatur.
+                </p>
+              </li>
+              <li class="mb-10 ml-6">
+                <span
+                  class="absolute flex items-center justify-center w-7 h-7 bg-blue-600 rounded-full -left-3.5"
+                >
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    class="w-3 h-3 text-white"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                    ></path>
+                  </svg>
+                </span>
+                <h3 class="mb-1 text-xl font-semibold text-gray-800">
+                  Tuesday
+                </h3>
+                <time class="text-sm text-gray-500"
+                  >Released on January 29th, 2022</time
+                >
+                <p class="mt-2 text-gray-600">
+                  Officia accusantium necessitatibus voluptas obcaecati facere
+                  rerum provident ipsum quos modi perspiciatis iusto, doloremque
+                  harum sunt ipsam perferendis velit earum omnis aspernatur.
+                </p>
+              </li>
+              <li class="ml-6">
+                <span
+                  class="absolute flex items-center justify-center w-7 h-7 bg-blue-600 rounded-full -left-3.5"
+                >
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    class="w-3 h-3 text-white"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                    ></path>
+                  </svg>
+                </span>
+                <h3 class="mb-1 text-xl font-semibold text-gray-800">
+                  Wednesday
+                </h3>
+                <time class="text-sm text-gray-500"
+                  >Released on August 6th, 2021</time
+                >
+                <p class="mt-2 pb-4 text-gray-600">
+                  Amet aliquid officia error natus est dicta facere ratione iure
+                  quae similique ipsum ipsa accusamus unde ab quisquam.
+                </p>
+              </li>
+            </ol>
+          </div>
+          <div id="fotter" class="border p-2 m-2 rounded">
+            <p>information</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
+              iste nesciunt, veritatis ad iusto dignissimos rerum fugiat
+              accusamus tempora, nemo quo molestiae minus nobis expedita,
+              consectetur nam excepturi quae sint.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- scripts -->
+    <!-- Required chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Chart line -->
+    <script src="./dist/script.js"></script>
+  </body>
+</html>
+<!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
+<!-- https://l-1900-l.github.io/Study-progress-bar/ -->
